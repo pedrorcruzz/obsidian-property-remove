@@ -14,8 +14,17 @@ The script scans all `.md` files in your Obsidian vault, identifies the lines co
 ## Setup
 
 1. Clone the repository or download the script.
-2. Replace the `vault_path` with the path to your Obsidian vault on your local machine.
-3. Specify the `property_to_remove` with the property or metadata you want to remove (e.g., `name-property:`).
+
+``` bash
+   git clone https://github.com/pedrorcruzz/obsidian-property-remove.git
+```
+3. Replace the `vault_path` with the path to your Obsidian vault on your local machine.
+4. Specify the `property_to_remove` with the property or metadata you want to remove (e.g., `name-property:`).
+5. run code
+
+```python
+    python3 main.py
+```
 
 ## Example Usage
 
