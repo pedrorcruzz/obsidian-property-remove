@@ -6,6 +6,7 @@ This script allows you to remove specific properties from all Markdown files in 
 
 The script scans all `.md` files in your Obsidian vault, identifies the lines containing the property you wish to remove, and then rewrites the files without those lines.
 
+
 ## Requirements
 
 - Python 3.x
@@ -27,6 +28,9 @@ The script scans all `.md` files in your Obsidian vault, identifies the lines co
 ```
 
 ## Example Usage
+
+
+ Important: The property to remove must follow the format property-name: and must include the colon (:) for it to be identified correctly.
 
 ```python
 vault_path = os.path.expanduser("~/Projects/Obsidian-vault")
