@@ -1,4 +1,6 @@
+
 # Obsidian Property Remove
+
 
 This script allows you to remove specific properties from all Markdown files in an Obsidian vault. It's useful for cleaning up unwanted metadata or other properties that may have been added to your notes.
 
@@ -41,3 +43,9 @@ When running the script, you'll be presented with a menu to:
 3. Exit the program.
 
 The script will prompt you to enter the vault path and the property you want to remove.
+
+***
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
