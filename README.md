@@ -6,7 +6,6 @@ This script allows you to remove specific properties from all Markdown files in 
 
 The script scans all `.md` files in your Obsidian vault, identifies the lines containing the property you wish to remove, and then rewrites the files without those lines.
 
-
 ## Requirements
 
 - Python 3.x
@@ -16,24 +15,29 @@ The script scans all `.md` files in your Obsidian vault, identifies the lines co
 
 1. Clone the repository or download the script.
 
-``` bash
-   git clone https://github.com/pedrorcruzz/obsidian-property-remove.git
+```bash
+git clone https://github.com/pedrorcruzz/obsidian-property-remove.git
 ```
-2. Replace the `vault_path` with the path to your Obsidian vault on your local machine.
-3. Specify the `property_to_remove` with the property or metadata you want to remove (e.g., `name-property:`).
-4. run code
 
-```python
-    python3 main.py
+2. Run the script.
+
+```bash
+python3 main.py
 ```
+
+## Features
+
+- Set or edit the path to your Obsidian vault.
+- Remove a specific property from all `.md` files in your vault.
+- Option to return to the main menu during property removal.
+- The property to remove must follow the format `property-name:` (including the colon).
 
 ## Example Usage
 
+When running the script, you'll be presented with a menu to:
 
- Important: The property to remove must follow the format property-name: and must include the colon (:) for it to be identified correctly.
+1. Set or edit the vault path.
+2. Remove a property from the vault (if the vault is configured).
+3. Exit the program.
 
-```python
-vault_path = os.path.expanduser("~/Projects/Obsidian-vault")
-
-property_to_remove = "notes:"
-```
+The script will prompt you to enter the vault path and the property you want to remove.
