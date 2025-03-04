@@ -24,7 +24,7 @@ git clone https://github.com/pedrorcruzz/obsidian-property-remove.git
 2. Run the script.
 
 ```bash
-python3 main.py
+make run
 ```
 
 ## Features
